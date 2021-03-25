@@ -41,7 +41,7 @@ What was a challenge you encountered in creating this submission (be specific)? 
 
 What questions about web development do you have after completing your submission? (recommended 100 - 300 words) [Questions that I have about web development is how to make the code more efficient. By minimizing my functions and variables to only necessities for functions, as well as assignment certain functions to variables it was easier to bind certain properties together. With that in mind, learning about how each of the elements, properties, etc. can be used in different strategies in order to make code as efficient and as customizable as possible is something that I would be interested in learning.]
 
-If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) [I would add a difficulty selector like Easy, Medium, or Hard Mode. As well as buttons where users are allowed to customize their own game with as many buttons as the want as well as setting up the speed interval.]
+If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) [I would add a difficulty selector like Easy, Medium, or Hard Mode. As well as buttons where users are allowed to customize their own game with as many buttons as the want as well as setting up the speed interval. If I was given more time I would have also customized the game a bit more and added nicer backgrounds, images, and sound effects.]
 
 License
 Copyright [Madiha Abdul Maajid]
