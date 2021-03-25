@@ -33,7 +33,7 @@ The following additional features are implemented:
 [✓] Color Blind Mode: Enters the word 'click' inside the button to whichever button is being selected by the random array, and can be used at the beginning or the middle of the game
 Video Walkthrough
 Here's a walkthrough of implemented user stories:
-https://i.imgur.com/qhduEnt.gifv
+https://i.imgur.com/dCCP6L0.gifv
 
 Reflection Questions
 If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. https://stackoverflow.com/questions/31106189/create-a-simple-10-second-countdown https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random https://stackoverflow.com/questions/49616861/div-element-moves-when-changing-the-innerhtml
