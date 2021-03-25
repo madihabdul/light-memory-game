@@ -33,8 +33,8 @@ function countdownFunction() {
 var downloadTimer = setInterval(function(){
   if(timeleft <= 0){
     clearInterval(downloadTimer);
-    document.getElementById("timer").innerHTML = loseGame();
-    document.getElementById("timer").innerHTML = "Restart by pressing Start";
+    document.getElementById("timer").innerHTML = stopGame();
+    document.getElementById("timer").innerHTML = "Times up! Restart by pressing Start";
   } else {
     document.getElementById("timer").innerHTML = timeleft + " seconds remaining";
   }
@@ -63,9 +63,9 @@ function stopGame() {
 
 function randomPattern() { // generating a random secret pattern
          pattern = [];
-         for (var i = 0; i <= 6; i++)
+         for (var i = 0; i <= 5; i++)
          {
-            pattern.push(Math.floor(Math.random() * 6) + 1)
+            pattern.push(Math.floor(Math.random() * 5) + 1)
         }
         console.log(pattern);
 }
@@ -100,6 +100,7 @@ function loseGame() {
   timeleft = 0;
   strikeCounter = 0;
 }
+
 function winGame() {
   stopGame();
   alert("Game Over. You won!");
@@ -131,9 +132,9 @@ function winGame() {
     console.log(strikeCounter);
     if (strikeCounter <= 2) {
       playClueSequence();
-      return;
-    }
+    }else{
       loseGame();
+    }
   }
 }
 
