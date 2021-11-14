@@ -1,4 +1,4 @@
-Project for CodePath program
+Project for CodePath
 
 License
 Copyright [Madiha Abdul Maajid]
